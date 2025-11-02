@@ -130,7 +130,11 @@ footer {
     color: white;
     padding: 30px 20px;
     text-align: center;
-    margin-top: 60px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px;
 }
 
 .footer-content h3{
@@ -383,14 +387,16 @@ form button {
 }
 
 .imagem-desconto {
-    text-align: center;
-    padding: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #d4a574;
 }
 
 .imagem-desconto img {
-    width: 600px;
-    margin-top: 50px;
+   width: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
 }
