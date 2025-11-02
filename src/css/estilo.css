@@ -353,7 +353,7 @@ form button {
   margin-top: 40px;
 }
 
-.review-card {
+.review {
   background-color: #d6b896;
   flex: 1 1 280px;
   padding: 20px;
@@ -362,24 +362,24 @@ form button {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.review-card:hover {
+.review:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.review-card p {
+.review p {
   font-style: italic;
   color: #664532;
   margin-bottom: 15px;
 }
 
-.review-card .author {
+.review .author {
   font-weight: bold;
   color: #664532;
   text-align: right;
 }
 
-.section-title {
+.titulo {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
@@ -391,6 +391,7 @@ form button {
     margin: 0;
     padding: 0;
     background-color: #d4a574;
+    margin-top: 50px;
 }
 
 .imagem-desconto img {
@@ -399,4 +400,61 @@ form button {
     height: auto;
     display: block;
     margin: 0;
+}
+
+#msg {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #c48a4a;
+  color: #d6b896;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.importancia-perfumes p {
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@keyframes moverBanner {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20px);
+    opacity: 0.7;
+  }
+}
+
+.banner {
+  background-color: #d6b896; 
+  color: #664532;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 15px;
+  width: 60%;
+  margin: 50px auto;           
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  animation: moverBanner 4s infinite ease-in-out;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.banner h1 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
 }

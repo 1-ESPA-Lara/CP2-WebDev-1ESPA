@@ -1,48 +1,41 @@
-const perguntas = [
- {
-    pergunta: "Pergunta 1: Como você se descreveria?\nA) Misterioso(a) e intenso(a)\nB) Romântico(a) e charmoso(a)\nC) Natural e autêntico(a)\nD) Elegante e confiante"
- },
- {
-    pergunta: "Pergunta 2: Qual ambiente mais combina com você?\nA) Uma biblioteca antiga\nB) Um jantar elegante\nC) Uma floresta tranquila\nD) Uma noite estrelada"
- },
- {
-    pergunta: "Pergunta 3: Qual palavra te representa?\nA) Mistério\nB) Sofisticação\nC) Serenidade\nD) Liberdade"
- },
- {
-    pergunta: "Pergunta 4: O que você busca em um perfume?\nA) Algo marcante\nB) Fragrância romântica\nC) Frescor e leveza\nD) Um toque celestial"
- }
+alert("Você entende o que está cheirando?\nVamos entender melhor os perfumes com esse quiz!")
+
+const perguntas= [ 
+    { 
+        pergunta:"O que é uma nota de coração em um perfume?\n A) O aroma que aparece primeiro\n B) O aroma que aparece após alguns minutos\n C) A base fixa\n D) O cheiro da embalagem\n", 
+        resposta:"B" 
+    }, 
+    { 
+        pergunta:"O que são “notas de topo” em um perfume?\n A) As que duram mais tempo\n B) As que aparecem primeiro\n C) As que vêm do fundo do frasco\n D) As que não têm cheiro\n", 
+        resposta:"B" 
+    }, 
+    { 
+        pergunta:"Qual destes ingredientes é mais usado para dar um toque cítrico a um perfume?\n A) Baunilha\n B) Âmbar\n C) Bergamota\n D) As que não têm cheiro\n", 
+        resposta:"C" 
+    }, 
+    {
+        pergunta:"O que significa quando um perfume é “Eau de Parfum”?\n A) Que é mais leve que uma colônia\n B) Que é feito com água minera\n C) Que deve ser usado apenas à noite\n D) Que tem maior concentração de essência\n",
+        resposta:"D"
+    },
+    {
+        pergunta:"Qual destes aromas é considerado uma “nota de base”?\n A) Almíscar\n B) Jasmim\n C) Lavanda\n D) Limão\n",
+        resposta:"A"
+    }
+
 ];
 
-// grupos de planetas
-const grupos = {
-    "A": {nome: "Planetas Anões (Plutão)", descricao: "Você é misterioso(a) e intenso(a), com uma essência única e profunda."},
-    "B": {nome: "Gigantes Gasosos (Júpiter e Saturno)", descricao: "Você é sofisticado(a) e elegante, transmite presença e confiança."},
-    "C": {nome: "Planetas Rochosos (Vênus, Terra e Marte)", descricao: "Você é natural e autêntico(a), equilibrado(a) e conectado(a) à essência da vida."},
-    "D": {nome: "Gigantes Gelados (Urano e Netuno)", descricao: "Você é livre, sonhador(a) e tranquilo(a), com um toque de leveza e mistério."}
-};
+//declarando a variavel de acertos que recebe 0 
+let acertos = 0;
 
-// contador das respostas
-let contagem = {A:0, B:0, C:0, D:0};
+// criar um laço de repetição para verificar as perguntas 
+for(let i=0; i<perguntas.length;i++) { 
+    const respostaUsuario=prompt(perguntas[i].pergunta);
 
-// laço de perguntas
-for (let i = 0; i < perguntas.length; i++) {
-    const respostaUsuario = prompt(perguntas[i].pergunta);
-    if (respostaUsuario) {
-        const letra = respostaUsuario.toUpperCase();
-        if (contagem[letra] !== undefined) {
-            contagem[letra]++;
-        }
-    }
+    //verifica se o que o usuario digitou for minusculo e se não for converte para ser 
+    if(respostaUsuario.toLowerCase() === perguntas[i].resposta.toLocaleLowerCase()){ 
+        acertos++; 
+    } 
 }
 
-// encontra o grupo mais escolhido
-let maisEscolhido = "A";
-for (let letra in contagem) {
-    if (contagem[letra] > contagem[maisEscolhido]) {
-        maisEscolhido = letra;
-    }
-}
+document.getElementById("msg").innerHTML=(`Você acertou ${acertos} de ${perguntas.length}! Bora conhecer mais fragrâncias? Veja nossos perfumes mais populares!`);
 
-// mostra o resultado final
-const grupo = grupos[maisEscolhido];
-document.getElementById("msg").innerHTML = (`Seu grupo planetário é: <b>${grupo.nome}</b><br>${grupo.descricao}`);
