@@ -1,13 +1,13 @@
 let imagens = [
-  "../assets/Perfume0.png",
-  "../assets/Perfume1.png",
-  "../assets/Perfume2.png",
-  "../assets/Perfume3.png",
-  "../assets/Perfume4.png",
-  "../assets/Perfume5.png",
-  "../assets/Perfume6.png",
-  "../assets/Perfume7.png",
-  "../assets/Perfume8.png"
+  "../assets/perfume0.png",
+  "../assets/perfume1.png",
+  "../assets/perfume2.png",
+  "../assets/perfume3.png",
+  "../assets/perfume4.png",
+  "../assets/perfume5.png",
+  "../assets/perfume6.png",
+  "../assets/perfume7.png",
+  "../assets/perfume8.png"
 ];
 
 let i = 0;
