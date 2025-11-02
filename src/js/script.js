@@ -31,3 +31,17 @@ function slideShow() {
 }
 
 slideShow();
+
+function mudarCor(cor) {
+  const hero = document.getElementById('hero-sultana');
+ 
+  if (cor === 'bege') {
+    hero.style.backgroundColor = '#d6b896';
+  } else if (cor === 'caramelo') {
+    hero.style.backgroundColor = '#c48a4a';
+  } else if (cor === 'dourado') {
+    hero.style.backgroundColor = '#f4ce84';
+  }
+ 
+  hero.style.transition = "background-color 0.6s ease-in-out";
+}
