@@ -61,7 +61,7 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 ## Considerações Finais
 
 O projeto Sultana representa a união entre tecnologia e elegância, trazendo uma experiência digital envolvente para quem aprecia o universo das fragrâncias.
-Criado com dedicação, criatividade e muito perfume no ar! ✨
+Criado com dedicação, criatividade e muito perfume no ar! 
 
 ## FIAP – Engenharia de Software – 1ESPA
 ## Professor: Wellington Cidade Silva
