@@ -13,7 +13,7 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 ---
 
 ## Estrutura do Projeto
-
+```
 │
 ├── src/
 │ ├── assets/ → imagens e ícones utilizados no site
@@ -24,7 +24,7 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 ├── equipe.txt → nomes e RMs dos integrantes
 ├── index.html → página principal do site
 └── README.md → documentação do projeto
-
+```
 ---
 
 ## Funcionalidades Principais
@@ -52,8 +52,8 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 
 | Integrante | RM |
 |-------------|----|
-| Lara Mofid Essa Alssabak | RMXXXX |
-| Maria Luisa Boucinhas Franco | RMXXXX |
+| Lara Mofid Essa Alssabak | RM567947 |
+| Maria Luisa Boucinhas Franco | RM567355 |
 | Roberta Moreira dos Santos | RM567825 |
 
 ---
