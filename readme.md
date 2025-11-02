@@ -1,10 +1,10 @@
-# 🌸 Sultana – Loja de Perfumes
+# Sultana
 
 **Checkpoint 2 – Web Development | FIAP**
 
 ---
 
-## 💡 Sobre o Projeto
+## Sobre o Projeto
 A **Sultana** é um site desenvolvido como parte do projeto de *Web Development* da FIAP.  
 Nosso objetivo foi criar uma loja virtual elegante e moderna, dedicada ao universo dos perfumes, combinando **design refinado, interatividade e organização**.
 
@@ -12,8 +12,8 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 
 ---
 
-## 🧱 Estrutura do Projeto
-
+## Estrutura do Projeto
+```
 │
 ├── src/
 │ ├── assets/ → imagens e ícones utilizados no site
@@ -24,10 +24,10 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 ├── equipe.txt → nomes e RMs dos integrantes
 ├── index.html → página principal do site
 └── README.md → documentação do projeto
-
+```
 ---
 
-## 🖥️ Funcionalidades Principais
+## Funcionalidades Principais
 
 - **Home:** Banner animado e apresentação da marca.  
 - **Sobre:** História da Sultana e conceito da marca.  
@@ -38,35 +38,30 @@ O site apresenta uma experiência visual inspirada em tons árabes e sofisticado
 
 ---
 
-## 🎨 Tecnologias Utilizadas
-- **HTML5** – Estrutura e semântica.  
-- **CSS3** – Estilo e animações.  
-- **JavaScript (ES6)** – Interatividade e lógica do quiz.  
+## Tecnologias Utilizadas
+
+- **HTML** – Estrutura e semântica.  
+- **CSS** – Estilo e animações.  
+- **JavaScript** – Interatividade e lógica do quiz.  
 - **Git & GitHub** – Versionamento e colaboração em equipe.  
 - **VSCode** – Ambiente de desenvolvimento.  
 
 ---
 
-## 👥 Equipe
-*(preencher com os nomes e RMs)*
+## Equipe
 
 | Integrante | RM |
 |-------------|----|
-| Nome 1 | RMXXXX |
-| Nome 2 | RMXXXX |
-| Nome 3 | RMXXXX |
+| Lara Mofid Essa Alssabak | RM567947 |
+| Maria Luisa Boucinhas Franco | RM567355 |
+| Roberta Moreira dos Santos | RM567825 |
 
 ---
 
-## 🚀 Como Executar o Projeto
-1. Clone este repositório:  
-   ```bash
-   git clone https://github.com/sua-organizacao/sultana.git
-
-## 💬 Considerações Finais
+## Considerações Finais
 
 O projeto Sultana representa a união entre tecnologia e elegância, trazendo uma experiência digital envolvente para quem aprecia o universo das fragrâncias.
 Criado com dedicação, criatividade e muito perfume no ar! ✨
 
-## 📅 FIAP – Engenharia de Software – 1ESPA
-## 👨‍🏫 Professor: Wellington Cidade Silva
+## FIAP – Engenharia de Software – 1ESPA
+## Professor: Wellington Cidade Silva
